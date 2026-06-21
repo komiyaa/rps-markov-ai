@@ -21,7 +21,7 @@ AI_WINS = 1
 AI_LOSS = 1
 AI_DRAW = 1
 
-def first_order():
+def main():
       global AI_WINS, AI_LOSS, AI_DRAW
 
       plays = 0
@@ -109,4 +109,4 @@ def first_order():
         print(f"AI Winrate: {AI_WINS / (AI_DRAW + AI_LOSS + AI_WINS):.2f}")
         print(f"counter: {plays}")
 
-first_order()
+main()
