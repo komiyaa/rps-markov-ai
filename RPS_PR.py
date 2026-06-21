@@ -13,8 +13,8 @@ WINNING_CONDITIONS = {
       }
 
 
-r1 = random.choice(["r", "p", "s"])
-r2 = random.choice(["r", "p", "s"])
+R1 = random.choice(["r", "p", "s"])
+R2 = random.choice(["r", "p", "s"])
 MOVES = [r1, r2]
 
 AI_WINS = 1
