@@ -15,7 +15,7 @@ WINNING_CONDITIONS = {
 
 R1 = random.choice(["r", "p", "s"])
 R2 = random.choice(["r", "p", "s"])
-MOVES = [r1, r2]
+MOVES = [R1, R2]
 
 AI_WINS = 1
 AI_LOSS = 1
